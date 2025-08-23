@@ -16,7 +16,7 @@ public class SnakeTest {
     @Test
     void testInvalidSnakeThrowsError() {
         Exception ex = assertThrows(IllegalArgumentException.class,
-                () -> new Snake(10, 20)); // tail above head is invalid
+                () -> new Snake(10, 20));
         assertEquals("Snake tail must be below head", ex.getMessage());
     }
 
