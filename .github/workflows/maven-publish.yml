@@ -22,7 +22,7 @@ jobs:
           cache: maven
 
       - name: Build with Maven
-        run: mvn -B clean install
+        run: cd SNL && mvn -B clean install
 
       - name: Run Tests
-        run: mvn test
+        run: cd SNL && mvn test
