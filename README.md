@@ -1,7 +1,23 @@
 # 🎲 Snakes & Ladders (Console Game)
 
+[![Build Status](https://github.com/dhruvkoranga/SnakeAndLadder/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/dhruvkoranga/SnakeAndLadder/actions)
+
 A simple **console-based Snakes & Ladders** game written in **Java** using **Maven**, following **TDD** practices with **JUnit 5, Mockito, and Lombok**.  
 
+## 🔄 Continuous Integration (CI)
+
+We have added **GitHub Actions** for continuous integration in the project.  
+The workflow automatically:
+
+1. Runs on every `push` and `pull request`.  
+2. Builds the project using Maven.  
+3. Runs all unit tests (`mvn test`).  
+4. Reports build/test status with a badge at the top of this README.  
+
+You can find workflow configuration inside:
+```bash
+.github/workflows/maven-publish.yml
+```
 ---
 
 ## 📂 Project Structure
